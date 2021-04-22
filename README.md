@@ -1,5 +1,6 @@
 # TUMCS_EBTech_SS2021_App_1
 - Cyclic voltammetry simulation of mediated enzymatic catalysis in solution.
+- App 1 for the summer semester 2021 course "Electrobiotechnology", taught by Prof. Dr. Nicolas Plumeré in the Professorship for Electrobiotechnology at the Technical University of Munich, Campus Straubing (TUMCS). A link to the group webpage can be found [here](https://ebt.cs.tum.de/?lang=en).
 
 # System Description Highlights
 - Simulation of the experimental cyclic voltammogram signal for a given set of dimensional parameters (concentrations, diffusion rates, catalytic rate constants, etc).
