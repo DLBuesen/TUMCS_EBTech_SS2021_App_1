@@ -15,7 +15,7 @@
 - A tour of the app (in this case deployed via Docker container) is shown in a video for the [windows 10](https://vimeo.com/538415217), ignore anything in the video related to docker, XLaunch, etc. This version of the app is not deployed via Docker but is otherwise basically the same.
 
 # Operating Systems, Installation, and Uninstallation
-- The app is only for Windows 10 (i.e. not for Linux or Mac).
+- The app is for Windows 10 only (i.e. not for Linux or Mac).
 - Download the project folder from here, extract it to the desktop.
 - Run the installer as administrator with the defaults. It is a standard windows installation which does not have any additional prerequisites. It is not containerized and therefore does not require permissions to access the screen (i.e. no Docker, XLaunch, etc.).
 - Create a separate folder for the app launch and for your data on the desktop. Place a copy of the Parameters folder there as well as links to the app launch icon and to the data export excel file. If these steps are not done, then the app will not work because the app is installed in the applications folder, where limited read/write accesss is granted. You can also rename the parameters folder to something else if you want to (i.e. to save parameters corresponding to a specific set of exprimental conditions). This is allowed because you choose each time which Excel file to use for parameters.
