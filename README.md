@@ -21,7 +21,7 @@
 - The installer will automatically search for the correct version of Matlab Runtime (required to run apps made using Matlab). If you don't have it, then it will also be installed.
 - Create a separate folder for the app launch and for your data on the desktop. Place a copy of the Parameters folder there as well as links to the app launch icon and to the data export excel files. If these steps are not done, then the app will not work because the app is installed in the applications folder, where limited read/write accesss is granted. You can also rename the parameters folder to something else (i.e. to save parameters corresponding to a specific set of exprimental conditions), and also to have multiple parameter excel files. This is allowed because you choose each time which Excel file to use for the parameters. However, changes to the structure of the file (i.e. adding rows or moving cells) should not be done since the data is read by row/column assignments.
 - Uninstallation is performed by locating the app with the list of other installed apps in your windows computer, and selecting uninstall.
-- A demonstration video is provided [here] (reference).
+- A demonstration video is provided [here](https://vimeo.com/540047147).
 
 # Typical Workflow and Results
 - Start the app by using the shortcut and by running as administrator.
