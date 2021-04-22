@@ -12,6 +12,15 @@
 - To simulate the predicted experimental signals for a given set of experimental conditions and dimensional parameters.
 - To explore how the qualitative features of cyclic voltammograms change depending on various conditions.
 - To explore how secondary plots (i.e. plots based on peak currents) can be affected by these changes.
+- A tour of the app (in this case deployed via Docker container) is shown in a video for the [windows 10](https://vimeo.com/538415217), ignore anything in the video related to docker, XLaunch, etc. This version of the app is not deployed via Docker but is otherwise basically the same.
+
+# Operating Systems, Installation, and Uninstallation
+- The app can be run only from Windows 10.
+- Download the project folder from here, extract it to the desktop.
+- Run the installer as administrator with the defaults. It is a standard windows installation which does not have any additional prerequisites. It is not containerized and therefore does not require permissions to access the screen (i.e. no Docker, XLaunch, etc.).
+- Create a separate folder for the app launch and for your data on the desktop. Place a copy of the Parameters folder there as well as links to the app launch icon and to the data export excel file. If these steps are not done, then the app will not work because the app is installed in the applications folder, where limited read/write accesss is granted. You can also rename the parameters folder to something else if you want to (i.e. to save parameters corresponding to a specific set of exprimental conditions). This is allowed because you choose each time which Excel file to use for parameters.
+- Uninstallation is performed by locating the app with the list of other installed apps in your windows computer, and selecting uninstall.
+- A demonstration video is provided [here] (reference).
 
 # Typical Workflow and Results
 - Start the app by using the shortcut and by running as administrator.
@@ -20,15 +29,6 @@
 - A plot of the cyclic voltammogram appears. Tools within the graph can be used to read the data points, or to save the figure as a .png.
 - The current-potential data for the simulated CV is saved to the data export excel file. The data can then be transferred to another spreadsheet or graphing program (i.e. Origin) for reformatting or for making overlay plots.
 - The program is closed by closing the main window of the simulation.
-- A tour of the app (deployed via Docker container) is shown in a video for the [windows 10](https://vimeo.com/538415217), ignore anything in this video related to docker, XLaunch, etc. This video is only for showing the main features of the app.
-
-# Operating Systems and Installation
-- The app can be run only from Windows 10.
-- Download the project folder from here, extract it to the desktop.
-- Run the installer as administrator with the defaults. It is a standard windows installation which does not have any additional prerequisites. It is not containerized and therefore does not require permissions to access the screen (i.e. no Docker, XLaunch, etc.).
-- Create a separate folder for the app launch and for your data on the desktop. Place a copy of the Parameters folder there as well as links to the app launch icon and to the data export excel file. If these steps are not done, then the app will not work because the app is installed in the applications folder, where limited read/write accesss is granted.
-- The details can be seen in a demonstration video provided [here] (reference).
-- Additional installation instructions which are operating system specific can be found within this project for [Windows 10](https://github.com/DLBuesen/cv_sim_mediated_in_soln/tree/main/windows10) and for [Ubuntu 18.04](https://github.com/DLBuesen/cv_sim_mediated_in_soln/tree/main/ubuntu1804).
 
 # License
 - This app was made using Matlab with an education and research license. Therefore, use of the app must be within the scope of this license.
